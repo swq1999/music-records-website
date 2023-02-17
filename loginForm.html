@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="cssMyStyle.css" type = "text/css">	
+		<title> Login Page </title>
+	</head> 
+	<body class="gridContainer1">
+		<header>
+			<h1> Northumbria Music Company </h1>
+		</header> 
+		<nav>
+			<div class="navbar">
+				<a href="homepage.php">Home</a>
+				<a href="recordsList.php">Edit Record</a>
+				<a href="orderRecordsForm.php">Order Record</a>
+				<a href="credits.php">Credits</a>
+			</div>
+		</nav>
+		<main class="loginMain">
+		<h2>Enter Login Details:</h2>
+		<div class="loginForm">
+			<form method="post" action="loginProcess.php">
+				<label>Username </label><input type="text" name="username" placeholder="Enter Username" minlength="8" maxlength="15" required>
+				<label>Password </label><input type="password" name="password" placeholder="Enter Password" minlength="8" maxlength="25" required>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+		</main>
+		<footer>	
+			<h4>Contact us:</h4>
+			<p>
+				Email: musiccompany@northumbria.ac.uk <br>
+				Phone: +44123456789 <br>
+			</p>	
+			<p>&copy; 2022 Northumbria Music Company. All Rights Reserved.</p>
+		</footer>
+	<body>	
+</html>
